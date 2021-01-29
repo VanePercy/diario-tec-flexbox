@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAEtB",
     "sources": [
-        "estilos.scss"
+        "estilos.scss",
+        "partials/_variables.scss",
+        "partials/_baserules.scss",
+        "partials/_header.scss",
+        "partials/_main.scss",
+        "partials/_footer.scss"
     ],
     "names": [],
     "file": "estilos.css"
