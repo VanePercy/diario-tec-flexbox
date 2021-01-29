@@ -15,9 +15,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -41,7 +40,7 @@ h1 {
       justify-content: space-around;
 }
 
-.contenedor-main {
+.cont-noticias {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +52,7 @@ h1 {
           align-items: center;
 }
 
-.contenedor-main .sec-noticias {
+.cont-noticias .sec-noticias {
   width: 65%;
   margin: 1em;
   display: -webkit-box;
@@ -64,7 +63,7 @@ h1 {
           justify-content: flex-end;
 }
 
-.contenedor-main .sec-noticias > article {
+.cont-noticias .sec-noticias > article {
   font-size: 25px;
   margin: 2em;
 }
@@ -74,12 +73,12 @@ h2 {
   font-size: 40px;
 }
 
-.imagen-noticia, .aside .imagen-columna {
+.imagen-noticia, .cont-columnas .imagen-columna, .imagen-opinion {
   height: 300px;
   width: 300px;
 }
 
-.aside {
+.cont-columnas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +91,7 @@ h2 {
   border: 1px solid blue;
 }
 
-.aside .sec-columnas {
+.cont-columnas .sec-columnas {
   width: 65%;
   margin: 1em;
   display: -webkit-box;
@@ -103,7 +102,35 @@ h2 {
           justify-content: flex-end;
 }
 
-.aside .sec-columnas > article {
+.cont-columnas .sec-columnas > article {
+  font-size: 25px;
+  margin: 2em;
+}
+
+.cont-opinion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-opinion .sec-opinion {
+  width: 65%;
+  margin: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.cont-opinion .sec-opinion > article {
   font-size: 25px;
   margin: 2em;
 }
