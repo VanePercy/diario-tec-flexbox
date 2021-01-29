@@ -1,8 +1,28 @@
-.header {
-    height: 100px;
-    width: 100%;
+h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  border: 1px solid blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+
+  .nav-logo {
+    height: 70px;
+    border: 1px solid blueviolet;
+    margin-left: 10px;
+  }
+
+   .nav-lista {
+    margin-right: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-   
+    width: 60%;
+    list-style: none;
+    justify-content: space-around;
+  }
 }

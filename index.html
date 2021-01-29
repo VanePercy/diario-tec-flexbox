@@ -3,63 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="./estilos/estilos.css" />
     <title>Experct-TIC</title>
   </head>
   <body>
-    <header class="header">
-      <h1>EXPERT-TIC</h1>
+    <h1>Expert -TECH</h1>
+    <nav class="navbar">
+      <img src="./assets/tech-logo.svg" alt="Logo de marca" class="nav-logo" />
 
-      <p>Toda la actualidad de la tecnología</p>
-    </header>
-
-    <nav class="nav-bar">
-        <ul>
-
-            <li>Inicio</li>
-            <li>Opinión</li>
-            <li>Noticias</li>
-            <li>Columnas</li>
-            
-        </ul>
+      <ul class="nav-lista">
+        <li>Inicio</li>
+        <li>Noticias</li>
+        <li>Columnas</li>
+        <li>Opinión</li>
+      </ul>
     </nav>
 
     <main>
-
-        <section class="noticias">
-            <h2>Noticia</h2>
-            <div class="noticia-contenedor">
-                <article>Noticia 1</article>
-                <article>Noticia 2</article>
-            </div>
+      <div class="contenedor-main">
+        <h2>Noticias</h2>
+        <section class="sec-noticias">
+          <article>
+            <h3>Noticia 1</h3>
+            <img
+              src="./assets/tech.jpg"
+              alt="Imagen-noticia"
+              class="imagen-noticia"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              adipisci, repellendus dolorem assumenda ratione impedit quaerat
+              eius laboriosam quisquam eum consequuntur ab animi? Aut amet nobis
+              enim, nam culpa inventore?
+            </p>
+          </article>
+          <article>
+            <h3>Noticia 2</h3>
+            <img
+              src="./assets/tech.jpg"
+              alt="Imagen-noticia"
+              class="imagen-noticia"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              saepe eligendi a unde non exercitationem officiis laborum totam
+              natus eveniet laboriosam quod, cum rerum id facilis eius quae
+              porro mollitia!
+            </p>
+          </article>
         </section>
 
         <section class="opinion">
-        <h2>Opinión</h2>
-
-            <div class="opinion-contenedor">
-                <article>Opinión 1</article>
-                <article>Opinión 2</article>
-            </div>
+          <!--<h2>Opinión</h2>
+            <article>Opinión 1</article>
+          <article>Opinión 2</article>-->
         </section>
-
-
+      </div>
     </main>
 
-    <aside class="aside">
+    <aside>
+      <div class="aside">
         <h2>Columnas</h2>
-        <div class="aside-contenedor">
-            <section class="columnas">
-                <article>Columna 1</article>
-                <article>Columna 2</article>
 
-            </section>
-        </div>
-
+        <section class="sec-columnas">
+          <article>
+            <h3>Columna 1</h3>
+            <img
+              src="./assets/tech.jpg"
+              alt="Imagen-noticia"
+              class="imagen-columna"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              saepe eligendi a unde non exercitationem officiis laborum totam
+              natus eveniet laboriosam quod, cum rerum id facilis eius quae
+              porro mollitia!
+            </p>
+          </article>
+          <article>
+            <h3>Columna 2</h3>
+            <img
+              src="./assets/tech.jpg"
+              alt="Imagen-noticia"
+              class="imagen-columna"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+              saepe eligendi a unde non exercitationem officiis laborum totam
+              natus eveniet laboriosam quod, cum rerum id facilis eius quae
+              porro mollitia!
+            </p>
+          </article>
+        </section>
+      </div>
     </aside>
 
     <footer class="footer">
-        <h3>Copyright</h3>
+      <h3>Copyright</h3>
     </footer>
   </body>
 </html>
