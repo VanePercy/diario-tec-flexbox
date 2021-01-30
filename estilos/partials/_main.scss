@@ -86,14 +86,3 @@ h3 {
 }
 
 
-@media only screen and (max-width:320px) {
-  .inicio {
-      font-size: 5px;
-      text-align: center;
-  }
-  article {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-  }
-}

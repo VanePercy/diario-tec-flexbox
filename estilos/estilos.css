@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .cont-noticias {
+    display: block;
+  }
+  .cont-noticias .inicio {
+    font-size: 50px;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+}
+
 h1 {
   text-align: center;
   font-size: 80px;
@@ -144,25 +156,6 @@ h3 {
   font-size: 25px;
   margin: 2em;
   background: #9FAE97;
-}
-
-@media only screen and (max-width: 320px) {
-  .inicio {
-    font-size: 5px;
-    text-align: center;
-  }
-  article {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
 }
 
 .footer {
