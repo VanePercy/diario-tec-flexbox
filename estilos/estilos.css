@@ -3,18 +3,6 @@
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .cont-noticias {
-    display: block;
-  }
-  .cont-noticias .inicio {
-    font-size: 50px;
-    -ms-flex-item-align: start;
-        -ms-grid-row-align: start;
-        align-self: start;
-  }
-}
-
 h1 {
   text-align: center;
   font-size: 80px;
